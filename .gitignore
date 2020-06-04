@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++
+# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode,linux
 
 ### C++ ###
 # Prerequisites
@@ -36,4 +36,30 @@
 *.out
 *.app
 
-# End of https://www.toptal.com/developers/gitignore/api/c++
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,linux
